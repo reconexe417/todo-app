@@ -126,3 +126,32 @@ ul li:hover{
     border-radius: 50px;
     background: #bd28de;
 }
+
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 600px) {
+
+    .todo-app {
+        width: 95%;
+        margin: 60px auto 20px;
+        padding: 30px 20px;
+    }
+
+    .row {
+        padding-left: 15px;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    .todo-app h2 {
+        font-size: 22px;
+    }
+
+    ul li {
+        font-size: 17px;
+    }
+
+}
